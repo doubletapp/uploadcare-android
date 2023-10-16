@@ -7,12 +7,12 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath(libs.gradle)
-        classpath(libs.kotlin.plugin)
-        classpath(libs.navigation.safe.args.plugin)
-        /*classpath(libs.gradle)
-        classpath(libs.kotlin.plugin)
-        classpath(libs.navigation.safe.args.plugin)*/
+        /*classpath("com.android.tools.build:gradle:${libs.versions.gradleVersion.get()}")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlinVersion.get()}")
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:${libs.versions.navigation.get()}")*/
+        classpath("${libs.gradle.get()}")
+        classpath("${libs.kotlin.plugin.get()}")
+        classpath("${libs.navigation.safe.args.plugin.get()}")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
