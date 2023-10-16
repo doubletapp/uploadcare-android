@@ -7,9 +7,9 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath(libs.gradle.get())
-        classpath(libs.kotlin.plugin.get())
-        classpath(libs.navigation.safe.args.plugin.get())
+        classpath(libs.gradle)
+        classpath(libs.kotlin.plugin)
+        classpath(libs.navigation.safe.args.plugin)
         /*classpath(libs.gradle)
         classpath(libs.kotlin.plugin)
         classpath(libs.navigation.safe.args.plugin)*/
