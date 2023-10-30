@@ -10,6 +10,7 @@
   - Added support for new event types of webhooks.
   - Removed sorting methods by file size, as the corresponding parameter has been removed from
     the API query parameters.
+  - Added `default_effects` field in `UploadcareFile`.
 - Example:
   - Removed sorting options by file size from `UploadFragment`.
 - Project:
